@@ -1,0 +1,30 @@
+*{
+    background-image: url(https://media.istockphoto.com/id/1140265911/photo/modern-brick-wall-3d-rendering.jpg?b=1&s=170667a&w=0&k=20&c=-7ivo8JXj4dZp49xYClCEAjnGN3fio2zq4cRAfnaQWo=);
+}
+
+#grid {
+    display: flex;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+  }
+
+  li{
+    color: #fff;
+    text-align:center;
+    font-size: 10px;
+    font-style: italic;
+    padding:20px;
+    list-style: none;
+    
+  }
+
+  h2{
+    color: #fff;
+    text-align:center;
+    font-size: 10px;
+    font-style: italic;
+    
+  }
