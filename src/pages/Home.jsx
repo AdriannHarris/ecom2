@@ -5,11 +5,11 @@ import Slider from '../components/Slider';
 
 const Home = () => {
     return (
-    <div>
+    <section>
     <Navbar />
     <Slider />
  
-    </div>
+    </section>
     );
 };
 
